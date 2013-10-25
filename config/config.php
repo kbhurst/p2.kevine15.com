@@ -14,24 +14,24 @@ If you want a different default time format for this app, set it below
 */
 
 # What is the name of this app?
-	define('APP_NAME', 'Sample App');  
+	define('APP_NAME', 'Please-Just-Work');  
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
-	define('APP_EMAIL', 'webmaster@sample-app.com'); 
+	define('APP_EMAIL', 'kevin.b.hurst@gmail.com'); 
 
 /* 
 A email designated to receive messages from the server. Examples:
- 	* When there's a MySQL error on the live server it will send it to this email
- 	* If you're BCCing yourself on outgoing emails you may want them to go there
+ 	* When there is a MySQL error on the live server it will send it to this email
+ 	* If you are BCCing yourself on outgoing emails you may want them to go there
  	* Logs, cron results, errors, etc.
  	
  	Some might want this to be the same as the APP_EMAIL, others might want to create a designated gmail address for it
 */ 	
-	define('SYSTEM_EMAIL', 'webmaster@myapp.com'); 
+	define('SYSTEM_EMAIL', 'kevin.b.hurst@gmail.com'); 
 
 # Default DB name for this app
-	define('DB_NAME', 'myapp_com'); 
+	define('DB_NAME', 'p2_kevine15_com'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
@@ -43,5 +43,5 @@ A email designated to receive messages from the server. Examples:
 	//define('SMTP_PASSWORD', '');
 
 # For extra security, you might want to set different salts than what the core uses
-	//define('PASSWORD_SALT', '');
-	//define('TOKEN_SALT', '');
+	define('PASSWORD_SALT', 't9uchedrema6eSweMebruSpEneph7pRUyafUHu?A');
+	define('TOKEN_SALT', 'maneGafAchAye-AX?pha#*v*Pr_b*3+$Wrepedaw');
