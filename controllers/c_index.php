@@ -32,7 +32,11 @@ class index_controller extends base_controller {
 	      					     		
 		# Render the view
 			echo $this->template;
-
+			
+		# Testing time
+		//echo Geolocate::locate();
+		//echo Time::now();
+		
 	} # End of method
 	
 	

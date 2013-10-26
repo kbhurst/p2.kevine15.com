@@ -98,8 +98,16 @@ class users_controller extends base_controller {
 
 		} #oef logout
 		
+		//Please ignore.  This is all new to me so I'm attempting to create new functions and
+		//views in order to understand them better, rather than feel like I'm just following
+		//instructions without knowing what is going on.
+		public function test() {
+		
+		
+			$this->template->content = View::instance('v_users_test');
+			echo $this->template;
+			}
 
-	
 		public function profile() {
 
 			# If user is blank, they're not logged in; redirect them to the login page
@@ -111,12 +119,17 @@ class users_controller extends base_controller {
 
 			# Setup view
 			$this->template->content = View::instance('v_users_profile');
-			$this->template->title   = "Profile of".$this->user->first_name;
+			$this->template->title   = "Profile of ".$this->user->first_name;
 
 			# Render template
 			echo $this->template;
 	} #eof profile
 	
+
+
+
+
+
 	
 	
 	
