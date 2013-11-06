@@ -1,4 +1,3 @@
-
 <?php
 class users_controller extends base_controller {
 
@@ -96,7 +95,7 @@ class users_controller extends base_controller {
 			
 		# For now, just confirm they've signed up - 
 		# You should eventually make a proper View for this
-		echo 'You\'re signed up';
+	#	echo 'You\'re signed up';
 
 	Router::redirect('/users/login');
 	

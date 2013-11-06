@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 <!-- Sign in page -->
 
@@ -33,4 +33,5 @@
 		<br><br>
 	</form>
 		
+	<h3>You will be redirected to the login page upon successfully signing up<h3>
 	
