@@ -12,12 +12,26 @@
 
 <body>  
 
-    <div id='menu'>
+<div id="nav">
 
-        <a href='/'>Home</a>
+
+ <!--   <div id='menu'>
+
+        <a href='/'>Home</a>  --!>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 
         <!-- Menu for users who are logged in -->
         <?php if($user): ?>
+		
+		
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/users/profile">Profile</a></li>
+			<li><a href="/posts/index">Posts</a></li>
+			<li><a href="/posts/add">Add Posts</a></li>
+			<li><a href="/posts/users">Follow or Unfollow</a></li>
+			<li><a href="/users/logout">Logout</a></li>
+		</ul>
 
             <a href='/users/logout'>Logout</a>
             <a href='/users/profile'>Profile</a>
@@ -25,12 +39,14 @@
         <!-- Menu options for users who are not logged in -->
         <?php else: ?>
 
-            <a href='/users/signup'>Sign up</a>
-            <a href='/users/login'>Log in</a>
+            <li><a href='/users/signup'>Sign up</a></li>
+            <li><a href='/users/login'>Log in</a></li>
 
         <?php endif; ?>
 
-    </div>
+   <!-- </div>  -->
+</div>
+
 
     <br>
 

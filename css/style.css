@@ -1,0 +1,91 @@
+/* My Style Sheet */
+
+html, body, h1, h2, h3, h4, h5, h6, p, border{
+	margin:0;
+	padding:0;
+}
+html{
+	background-color:#eaeaea;
+}
+body{
+	height:100%;
+	width:960px;
+	margin:auto;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	color:#333333;
+	line-height:25px;
+	background-color:#fff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family:georgia, garamond, "times new roman", times, serif;
+	color:#666666;
+	font-weight: bold;
+	padding-top:40px;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size:30px;
+}
+h3{
+	font-size:20px;
+}
+
+
+/* Links */
+a:link, a:visited {
+	color:#ff0000;
+	text-decoration:underline;
+}
+a:active, a:hover{
+	color:#ff0000;
+	text-decoration:none;
+}
+
+/* Images */
+a img{
+	border:0;
+}	
+
+/* Navigation */
+#nav{
+	height:60px;
+	color:#ffffff;
+	text-align:right;
+	background-color:#333333;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom: 40px;
+}
+#nav ul{
+	list-style-type:none;
+	font-size:20px;
+}
+#nav li {
+	display:inline;
+	padding-right:10px;
+}
+#nav a:link, #nav a:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+#nav a:active, #nav a:hover {
+	color:#ff0000;
+	text-decoration: none;
+}
+
+/* Content */
+#content{
+	padding-left:20px;
+	padding-right:20px;
+}
+#content p{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+

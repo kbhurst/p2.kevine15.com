@@ -14,7 +14,7 @@ If you want a different default time format for this app, set it below
 */
 
 # What is the name of this app?
-	define('APP_NAME', 'Please-Just-Work');  
+	define('APP_NAME', 'Squirrel');  
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
@@ -31,16 +31,18 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'kevin.b.hurst@gmail.com'); 
 
 # Default DB name for this app
-	define('DB_NAME', 'p2_kevine15_com'); 
+	define('DB_NAME', 'kevineco_p2_kevine15_com'); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
 
 # If your app is going to have outgoing emails, you should fill in your SMTP settings
 # For this you could use gmail SMTP or something like http://sendgrid.com/
-	//define('SMTP_HOST', '');
-	//define('SMTP_USERNAME', '');
-	//define('SMTP_PASSWORD', '');
+	define('SMTP_HOST', 'smtp.sendgrid.net');
+	define('SMTP_USERNAME', 'khurst@');
+	define('SMTP_PASSWORD', 'Newpassword100!');
+
+	
 
 # For extra security, you might want to set different salts than what the core uses
 	define('PASSWORD_SALT', 't9uchedrema6eSweMebruSpEneph7pRUyafUHu?A');

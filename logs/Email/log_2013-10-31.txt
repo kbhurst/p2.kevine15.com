@@ -1,0 +1,30 @@
+2013-10-31 22:05:28 - INFO --> -------------------------- 
+2013-10-31 22:05:28 - INFO --> Controller/Method: users/p_signup 
+2013-10-31 22:05:28 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY kevin.b.hurst@gmail.com 
+2013-10-31 22:05:28 - INFO --> From: Squirrel (kevin.b.hurst@gmail.com) 
+2013-10-31 22:05:28 - INFO --> To:  (kevin.b.hurst@gmail.com),  
+2013-10-31 22:05:28 - INFO --> CC:  
+2013-10-31 22:05:28 - INFO --> BCC:  
+2013-10-31 22:05:28 - INFO --> Subject: Thank you for signing up with Squirrel 
+2013-10-31 22:05:28 - INFO --> Body: Enjoy! 
+2013-10-31 22:05:28 - INFO --> FAILED TO SEND EMAIL 
+2013-10-31 22:08:42 - INFO --> -------------------------- 
+2013-10-31 22:08:42 - INFO --> Controller/Method: users/p_signup 
+2013-10-31 22:08:42 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY kevin.b.hurst@gmail.com 
+2013-10-31 22:08:42 - INFO --> From: Squirrel (kevin.b.hurst@gmail.com) 
+2013-10-31 22:08:42 - INFO --> To:  (kevin.b.hurst@gmail.com),  
+2013-10-31 22:08:42 - INFO --> CC:  
+2013-10-31 22:08:42 - INFO --> BCC:  
+2013-10-31 22:08:42 - INFO --> Subject: Thank you for signing up with Squirrel 
+2013-10-31 22:08:42 - INFO --> Body: Enjoy! 
+2013-10-31 22:08:42 - INFO --> FAILED TO SEND EMAIL 
+2013-10-31 22:12:24 - INFO --> -------------------------- 
+2013-10-31 22:12:24 - INFO --> Controller/Method: users/p_signup 
+2013-10-31 22:12:24 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY kevin.b.hurst@gmail.com 
+2013-10-31 22:12:24 - INFO --> From: Squirrel (kevin.b.hurst@gmail.com) 
+2013-10-31 22:12:24 - INFO --> To:  (kevin.b.hurst@gmail.com),  
+2013-10-31 22:12:24 - INFO --> CC:  
+2013-10-31 22:12:24 - INFO --> BCC:  
+2013-10-31 22:12:24 - INFO --> Subject: Thank you for signing up with Squirrel 
+2013-10-31 22:12:24 - INFO --> Body: Enjoy! 
+2013-10-31 22:12:24 - INFO --> FAILED TO SEND EMAIL 
